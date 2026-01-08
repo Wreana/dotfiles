@@ -8,4 +8,5 @@ return {
     },
   },
   { "lewis6991/gitsigns.nvim", enabled = false },
+  { "catppuccin/nvim", enabled = false },
 }

@@ -19,9 +19,9 @@
 
 (deflayer destiny
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
-  tab  q    w    e    r    t    y    u    =    o    p    [    ]    \
-  caps a    s    bspc    f    g    ArrowLeft    ArrowDown    ArrowUp    ArrowRight    ;    '    ret
-  lsft z    x    c    v    b    n    S--    ,    .    /    rsft
+  tab  q    w    e    r    t    y    u    [    S-[    S-9    [    ]    \
+  caps '    S-'    bspc    S-;    g    ArrowLeft    ArrowDown    ArrowUp    ArrowRight    ;    '    ret
+  lsft z    x    c    v    b    ,    .   ,    .    /    rsft
   lalt lmet lctl           spc            < ralt rmet rctl
 )
 

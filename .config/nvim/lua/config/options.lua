@@ -8,4 +8,5 @@ vim.opt.laststatus = 0
 vim.api.nvim_set_hl(0, "Comment", { fg = "#888c94", italic = true })
 vim.api.nvim_set_hl(0, "LineNr", { fg = "#555a60" })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#b9bdc2", bold = true })
-vim.opt.clipboard = "unnamedplus"
+vim.o.termguicolors = true
+vim.opt.showbreak = "  "

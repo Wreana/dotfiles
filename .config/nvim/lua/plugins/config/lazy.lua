@@ -2,6 +2,3 @@ local earthtone_path = vim.fn.stdpath("config") .. "/lua/colorschemes/earthtone.
 if vim.loop.fs_stat(earthtone_path) then
   dofile(earthtone_path)
 end
-
-require("config.lazy")
-vim.o.shortmess = vim.o.shortmess .. "A"
